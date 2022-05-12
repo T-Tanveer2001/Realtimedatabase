@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yu"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1"
+        android:background="@color/teal_200"
+        android:backgroundTint="@color/teal_200"
+        android:onClick="domain"
+        android:text="Add Domain"
+        android:textSize="24sp"
+        app:backgroundTint="@color/teal_200" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1"
+        android:background="#AA3C61"
+        android:backgroundTint="#EC578A"
+        android:onClick="update"
+        android:text="Update"
+        android:textSize="24sp"
+        app:backgroundTint="@color/teal_200" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1"
+        android:background="#AA3C61"
+        android:backgroundTint="#EC578A"
+        android:onClick="show"
+        android:text="Show All"
+        android:textSize="24sp"
+        app:backgroundTint="@color/teal_200" />
+</LinearLayout>
